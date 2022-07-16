@@ -726,7 +726,11 @@ h1, h2, h3, h4, p {
 .icon-close-modal {
     width: 11px;
     height: 11px;
-    color: #000000;
+    fill: #000000;
+}
+
+.icon-close-modal:hover {
+    fill: var(--visual-text-color);
 }
 
 .is-hidden {
